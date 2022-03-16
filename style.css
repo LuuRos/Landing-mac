@@ -1,0 +1,320 @@
+:root {
+  --gris: #333333;
+  --grisclaro: #e4e4e6;
+  --rosa:#fec2eb;
+  --naranja: #bf4800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+/* navergador*/
+.navegador {
+  background-color: #333333f2;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+.navegador .col {
+  height: 50px;
+  padding: 0px;
+}
+
+.lista {
+  list-style: none;
+  height: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.lista li {
+  color: var(--grisclaro);
+  font-size: 12px;
+}
+.lista li i {
+  font-size: 20px;
+}
+.lista li:hover {
+  color: white;
+}
+
+/*--fondo gris de abajo del nav --*/
+.gris {
+  background-color: var(--grisclaro);
+}
+.gris .col {
+  text-align: center;
+  height: 50px;
+  padding: 0;
+}
+
+/* --texto iphone13--*/
+.iphone {
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
+}
+.iphone h1 {
+  font-size: 55px;
+}
+.iphone h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+.iphone i {
+  padding-left: 5px;
+  font-size: 15px;
+}
+.iphone a {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.iphone a:hover {
+  text-decoration: underline;
+}
+
+.fondo {
+  width: 100%;
+  height: 85vh;
+  background-image: url(img/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ipohone 2 */
+.fondo_dos {
+  width: 100%;
+  height: 85vh;
+  margin-top: 10px;
+  background-image: url(img/hero_iphone_13__f194u1rdooeq_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.fondo_dos h1 {
+  margin-top: 40px;
+  color: white;
+}
+.fondo_dos h2 {
+  color: var(--rosa);
+}
+
+/* reloj apple watch*/
+.fondo_reloj {
+  background-image: url(img/hero_watch__f05go333pz2i_large_2x.jpg);
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  margin-top: 10px;
+}
+.fondo_reloj h1 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: var(--naranja);
+  font-weight: 300;
+}
+.fondo_reloj h2 {
+  margin-top: 20px;
+}
+.fondo_reloj i {
+  margin-top: 20px;
+}
+.fondo_reloj img {
+  height: 80px;
+}
+
+/* dos columnas mac y reloj*/
+.row {
+  gap: 10px;
+}
+.row .iphone {
+  margin-top: 10px;
+}
+.row .derecha {
+  height: 500px;
+  background-image: url(img/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.row .derecha h1 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+.row .derecha h2 {
+  font-size: 20px;
+}
+.row .izquierda {
+  height: 500px;
+  background-image: url(img/promo_watch__fo7j0tnywi2q_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.row .izquierda h1 {
+  font-size: 40px;
+  margin-top: 40px;
+  color: white;
+}
+.row .izquierda h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.fondo_relojes {
+  margin-top: 5px;
+}
+.fondo_relojes .derecha {
+  height: 500px;
+  background-image: url(img/promo_watch_heart__dlf8uc5h0kae_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.fondo_relojes .derecha h1 {
+  margin-top: 1px;
+}
+.fondo_relojes .derecha h2 {
+  margin-bottom: 5px;
+}
+.fondo_relojes .derecha h4 {
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--naranja);
+}
+.fondo_relojes .izquierda {
+  height: 500px;
+  background-image: url(img/tile_arcade__ewkth5cd0wia_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.fondo_relojes .izquierda h2 {
+  color: black;
+  font-size: 20px;
+}
+.fondo_relojes .izquierda img {
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.fondo_card {
+  margin-top: 5px;
+}
+.fondo_card .derecha {
+  height: 500px;
+  background-image: url(img/tile__cauwwcyyn9hy_large_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.fondo_card .derecha img {
+  height: 30px;
+  margin-top: 30px;
+}
+.fondo_card .derecha h2 {
+  margin-top: 10px;
+}
+.fondo_card .izquierda {
+  height: 500px;
+  background-image: url(img/promo_lincolns_dilemma__tgg5vqyrd32q_large_2x.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.fondo_card .izquierda .tv {
+  margin-top: 40px;
+  width: 100px;
+}
+.fondo_card .izquierda .dilema {
+  width: 250px;
+  margin-top: 10px;
+}
+.fondo_card .izquierda h2 {
+  color: black;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.fondo_card .izquierda .abajo {
+  height: 500px;
+  position: bottom;
+  margin-bottom: 40px;
+}
+
+.fondo_gris {
+  margin-top: 10px;
+  background-color: #f5f5f7;
+  height: 200px;
+}
+.fondo_gris h5 {
+  width: 80%;
+  margin-top: 20px;
+  font-size: 10px;
+  color: #6e6e73;
+  font-weight: 100;
+}
+
+.menu {
+  background-color: #333333f2;
+  width: 100%;
+  display: none;
+  top: 0;
+  position: fixed;
+  z-index: 10;
+  height: 50px;
+}
+.menu .menu600 {
+  height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.menu .menu600 li {
+  list-style: none;
+  color: var(--grisclaro);
+  font-size: 20px;
+}
+.menu .menu600 li:hover {
+  color: white;
+}
+
+@media (max-width: 790px) {
+  .navegador {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .gris {
+    font-size: 10px;
+  }
+
+  .fondo {
+    background-image: url(img/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg);
+  }
+
+  .fondo_dos {
+    height: 400px;
+    background-image: url(img/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
+  }
+  .fondo_dos .iphone {
+    margin-top: 15%;
+  }
+
+  .fondo_reloj {
+    background-image: url(img/hero_watch__f05go333pz2i_small_2x.jpg);
+  }
+}/*# sourceMappingURL=style.css.map */
